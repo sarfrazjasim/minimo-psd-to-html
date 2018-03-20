@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    overflow: hidden;
+}
+
+#slider {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#slider img{
+    width: 100%;
+}
+
+#description {
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+#lifestyle {
+    overflow: hidden;
+}
+
+#newsletter {
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+#lifestyle {
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    margin-top: 50px;
+}
+
+.logo h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav {
+    float: right;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.nav ul{
+    list-style: none;
+    float: right;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    padding: 10px 60px;
+    transition: 1s;
+}
+
+.nav ul li:last-child a{
+    padding-right: 0px;
+}
+
+.nav ul li a:hover{
+    color: #000000;
+    transform: scale(1.2);
+}
+
+.minimo_intro {
+    padding: 0px 55px;
+}
+
+.minimo_tag {
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.minimo_title {
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    color: #626262;
+}
+
+.intro{
+    padding-top: 25px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    line-height: 24px;
+    font-weight: 100;
+}
+
+.last_p{
+    margin-top: 50px;
+}
+
+.minimo_blog {
+    margin-top: 70px;
+    padding: 0px 3px; 
+}
+
+.single_blog {
+    width: 40%;
+    float: left;
+    margin: 0 53px;
+}
+
+.blog_img {
+}
+
+.blog_img img{
+    width: 100%;
+}
+
+.blog_img p{
+    padding-top: 20px;
+}
+
+.blog_data {
+}
+
+.blog_data h1{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    padding-top: 15px;
+    color: #626262;
+}
+
+.blog_data p{
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    line-height: 24px;
+    padding: 20px 0px 100px 0px;
+}
+
+.newsletter_form {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+
+.newsletter_form form{
+    position: relative;
+}
+
+.newsletter_form h1{
+    font-size: 30px;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+.newsletter_form input{
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding-top: 50px;
+}
+
+.newsletter_form button{
+    
+}
+
+.newsletter_form form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    right: 43px;
+    top: 102px;
+}
+
+.minimo_load_more_btn {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.load_more_btn {
+    width: 160px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #000000;
+    transition: 1s;
+}
+
+.load_more_btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.2)
+}
+
+#footer{
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.footer_content {
+}
+
+.left_info {
+    widows: 40%;
+    float: left;
+}
+
+.left_info ul{
+    list-style: none;
+}
+
+.left_info ul li{
+    float: left;
+}
+
+.left_info ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    font-size: 14px;
+    padding: 40px 10px;
+    transition: 1s;
+}
+
+.left_info ul li a:hover{
+    color: #000000;
+    transform: scale(1.2);    
+}
+
+.right_info {
+    width: 50%;
+    float: right;
+}
+
+.right_info ul{
+    list-style: none;
+    float: right;
+}
+
+.right_info ul li{
+    float: left;
+}
+
+.right_info ul li a{
+    display: block;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 40px 10px;
+    transition: 1s;
+}
+
+.right_info ul li a:hover{
+    color: #000000;
+    transform: scale(1.2); 
+}
